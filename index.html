@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Product Checker Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<header>
+<h1>Digital Product Checker Pro</h1>
+<p>Analyze any digital product page and instantly generate marketing insights, captions, emails, and improvement suggestions.</p>
+</header>
+
+<section class="input-section">
+<h2>Enter Product URL</h2>
+
+<textarea id="urlInput" placeholder="Paste website or product URL here..."></textarea>
+
+<button id="analyzeBtn">Analyze Product</button>
+</section>
+
+<section class="dashboard">
+
+<div class="card">
+<h3>Product Score</h3>
+<p id="score">0/100</p>
+</div>
+
+<div class="card">
+<h3>Trust Level</h3>
+<p id="trust">Unknown</p>
+</div>
+
+<div class="card">
+<h3>Marketing Strength</h3>
+<p id="marketing">Unknown</p>
+</div>
+
+<div class="card">
+<h3>Audience Match</h3>
+<p id="audience">Unknown</p>
+</div>
+
+<div class="card full">
+<h3>Improvement Suggestions</h3>
+<div id="tips"></div>
+</div>
+
+<div class="card full">
+<h3>Generated Caption</h3>
+<div id="caption"></div>
+</div>
+
+<div class="card full">
+<h3>Email Promotion</h3>
+<div id="email"></div>
+</div>
+
+<div class="card full">
+<h3>Sales Copy</h3>
+<div id="copy"></div>
+</div>
+
+</section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
